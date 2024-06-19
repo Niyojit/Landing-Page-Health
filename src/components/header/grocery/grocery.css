@@ -1,0 +1,135 @@
+.Grocery{
+    display: flex;
+    flex-direction: column;
+}
+.GroceryHeadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.GroceryHeading {
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.CustomBox {
+    margin-left: 30px;
+    min-width: 100px;
+    height: 40px;
+}
+
+.MuiFormControl-root {
+    height: 100%;
+}
+
+.CustomInputLabel {
+    top: -6px; 
+    font-size: 14px; 
+    font-weight: bold; 
+}
+
+.CustomSelect {
+    background-color: white;
+    font-size: 14px; 
+    /* font-weight: bold;  */
+    height: 100%; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+}
+
+.MuiPaper-root {
+    background-color: white !important; 
+    font-size: 14px !important; 
+    font-weight: bold !important; 
+}
+.TableGrocery{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+  }
+  .TableGrocery1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+    
+  .rowsGrocery{
+    margin: 1px;
+    display: flex;
+    border-bottom: 2px;
+    background-color: #EEFFF5 !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+    border-radius: 5px;
+    margin-bottom: 7px;
+  }
+  .rowData1{
+    display: flex;
+     background-color: none;
+    align-items: center;
+    font-family: Satoshi;
+font-size: 18px;
+font-weight: 700;
+line-height: 24.3px;
+text-align: left;
+padding: 7px;
+
+  }
+  .imageFruits{
+    width: 40px;
+    height: 30.52px;
+   border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 10px;
+}
+.rowNumber1{
+    font-family: Satoshi;
+font-size: 18px;
+font-weight: 500;
+line-height: 24.3px;
+text-align: left;
+padding-right: 20px;
+}
+.GroceryImagecontainer{
+    display: flex;
+    justify-content: center;
+   align-items: end;
+   margin-left: 40px;
+    margin-right: 30px;
+    height: 100%;
+    /* width: 100%; */
+
+}
+
+.GroceryImage{
+   width: 370px;
+   height: 100%;
+
+}
+.ButtonContainer { /* Add styles for the button container */
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.buy {
+    background-color: #A6CC39; /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    font-size: 16px; /* Some font size */
+    border: none; /* Remove borders */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Centered text */
+}
+
+.buybtn {
+    font-weight: bold; /* Bold text */
+}
+
+.buy:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
